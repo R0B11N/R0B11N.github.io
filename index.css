@@ -1,7 +1,7 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
-@gradient-bg {
+.gradient-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,10 +12,11 @@
   z-index: -1;
 }
 
-@body {
+body {
     background: linear-gradient(45deg, #ff6b6b, #556270, #ff6b6b);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
+    overflow-x: hidden;
 }
 
 @keyframes gradientBG {
