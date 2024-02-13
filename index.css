@@ -458,6 +458,14 @@ body:not(.user-is-tabbing) a:focus {
 .work__box {
     display: flex;
     align-items: center;
+    background: linear-gradient(135deg, #ff6b6b, #556270); /* Adjust gradient colors and angle as needed */
+    padding: 2rem; /* Add padding for better spacing */
+    border-radius: 1rem; /* Add border radius for a softer appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.work__box:not(:last-child) {
+    margin-bottom: 2rem; /* Reduce the margin for better spacing */
 }
 
 @media(max-width: 900px) {
@@ -466,17 +474,6 @@ body:not(.user-is-tabbing) a:focus {
         flex-direction: column-reverse;
     }
 }
-
-.work__box:not(:last-child) {
-    margin-bottom: 25rem;
-}
-
-@media(max-width: 500px) {
-    .work__box:not(:last-child) {
-        margin-bottom: 20rem;
-    }
-}
-
 .work__links {
     display: flex;
     align-items: center;
@@ -527,7 +524,6 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
 }
 
 .client__logo {
