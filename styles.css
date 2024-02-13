@@ -1,0 +1,8 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* Adjust the colors and direction as needed */
+    /* You can also use hexadecimal, RGB, or other color formats */
+    /* Example: background: linear-gradient(to right, red, blue); */
+}
