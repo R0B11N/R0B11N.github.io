@@ -2,7 +2,7 @@
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
 body {
-  background: radial-gradient(circle, #000000, #ffffff);
+    background: linear-gradient(45deg, #ff6b6b, #556270, #ff6b6b); /* Your gradient colors and angle */
 }
 
 @keyframes gradientBG {
