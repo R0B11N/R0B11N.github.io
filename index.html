@@ -2,20 +2,6 @@
 <html lang="en">
 
 <head>
-   <style>
-    /* Include your CSS styles here */
-    .gradient-bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      overflow: hidden;
-      background: url('https://i.pinimg.com/originals/1a/a2/00/1aa2008c04d15f46d38b797cb1452ed4.gif') center center;
-      background-size: cover;
-    }
-  </style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
@@ -41,7 +27,7 @@
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
           <li class="nav__item"><a href="#clients" class="nav__link">Affiliates</a></li>
-          <li class="nav__item"><a href="" class="nav__link">Keep Scrolling!</a></li>
+          <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
@@ -66,33 +52,31 @@
   <main role="main">
 
     <!-- ***** Work ***** -->
-   <section class="work gradient-bg" id="work">
-  <div class="row">
-    <h2>About Me</h2>
-    <div class="about__content">
-      <div class="about__text">
-        <!-- Replace the below paragraph with info about yourself -->
-        <p>
-          Hi! My name is Robin. I’m a Mathematics and Computer Science student at Toronto Metropolitan University. Besides taking long hikes in nature, playing hockey and grilling in the backyard, I really enjoy looking at the world around me and thinking about how we can improve the smallest things around as. 
-          As a Mathematician, I bring knowledge in the fields of Graph Theory, Linear Optimization, Real Analysis, and Abstract Algebra, and I apply it with my skills in Machine Learning, Natural Language Process, Artificial Intelligence, and Software Engineering.
-          I’m always excited about applying my areas of knowledge to my daily projects, and whatever work I can take on!
-        </p>
-        <!-- Provide a link to your resume -->
-        <a href="https://drive.google.com/file/d/1FZoRKAOTRAbQZWSZbG4wqM6CzdLsKt2O/view?usp=sharing" class="btn">My Resume</a>
-      </div>
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hi! My name is Robin. I’m a Mathematics and Computer Science student at Toronto Metropolitan University. Besides taking long hikes in nature, playing hockey and grilling in the backyard, I really enjoy looking at the world around me and thinking about how we can improve the smallest things around as. 
+              As a Mathematician, I bring knowledge in the fields of Graph Theory, Linear Optimization, Real Analysis, and Abstract Algebra, and I apply it with my skills in Machine Learning, Natural Language Process, Artificial Intelligence, and Software Engineering.
+              I’m always excited about applying my areas of knowledge to my daily projects, and whatever work I can take on!
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1FZoRKAOTRAbQZWSZbG4wqM6CzdLsKt2O/view?usp=sharing" class="btn">My Resume</a>
+          </div>
 
-      <div class="about__photo-container">
-        <!-- Add a nice photo of yourself -->
-        <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
+    </section>
   </main>
 
     <section class="work" id="work">
-      <div class="gradient-bg"></div> <!-- Inserted gradient background -->
       <div class="row">
         <h2>My Work</h2>
         <div class="work__boxes">
@@ -190,7 +174,6 @@
     <!-- ***** Clients ***** -->
 
     <section class="client" id="clients">
-      <div class="gradient-bg"></div> <!-- Inserted gradient background -->
       <div class="row">
         <h2>Affiliates</h2>
         <div class="client__logos">
@@ -211,7 +194,6 @@
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
-    <div class="gradient-bg"></div> <!-- Inserted gradient background -->
     <div class="row">
       <h2>Get in Touch</h2>
       <div class="contact__info">
@@ -228,7 +210,6 @@
   <!-- ***** Footer ***** -->
 
   <footer role="contentinfo" class="footer">
-    <div class="gradient-bg"></div> <!-- Inserted gradient background -->
     <div class="row">
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
@@ -272,3 +253,4 @@
 </body>
 
 </html>
+
